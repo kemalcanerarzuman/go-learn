@@ -17,4 +17,12 @@ func main() {
 	fmt.Println(helloWorld)
 	user.name, user.email, user.age = "Kemal Caner Arzuman", "kemalcanerarzuman@gmail.com", 29
 	fmt.Printf("User's name is %s, and email is %s, and age is %d.", user.name, user.email, user.age)
+
+	visitor := Person{
+		"Michael Scoffield",
+		"michael1583@abc.com",
+		37,
+	}
+	fmt.Println()
+	fmt.Printf("Visitor's name is %s, and email is %s, and age is %d.", visitor.name, visitor.email, visitor.age)
 }
